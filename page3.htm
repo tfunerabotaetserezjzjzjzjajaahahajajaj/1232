@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>3 страница</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<header>
+    <img src="logo.png" alt="Логотипчик" onclick="window.location.href='index.htm'" style="position: relative; left: 30px;">
+</header>
+<p></p>
+<nav>
+    <ul>
+        <li><a href="page1.htm">Страница 1</a></li>
+        <li><a href="page2.htm">Страница 2</a></li>
+        <li><a href="page3.htm">Страница 3</a></li>
+    </ul>
+</nav>
+    
+<section>
+    <h1>Страница 3</h1>
+    <img class="content-image" src="гэрри.jpg" alt="Картинка 3">
+    <a><br><br>Сумма чисел:<br></a>
+
+    <input type="text" id="num1"> +
+    <input type="text" id="num2">
+
+    <button onclick="calc()">Посчитать</button>
+
+    <form name="forma1">Укажите ваш пол:<br>
+        <input type="radio" name="sex" value="man" checked> мужской
+        <input type="radio" name="sex" value="woman"> женский
+    </form>
+<p></p>
+    <form name="forma1">Какой язык вы хотите изучать:
+        <select name="language" size="1">
+            <option selected value="html">html
+            <option value="php">php
+            <option value="java">java
+            <option value="kotlin">kotlin
+            <option value="python">python
+        </select><br><br>
+    </form>
+
+    <form name="forma1">
+        <label for="load">Выберите файл: </label>
+        <input type="file" name="load" size="30">
+    </form>
+     <form name="forma1">
+    <p></p>
+    Введите пароль:<br>
+    <input type="password" name="text1" size="20"
+            maxlength="50">
+    <input type="reset" name="reset" value="Очистить">
+   </form>
+</section>
+</body>
+</html>
